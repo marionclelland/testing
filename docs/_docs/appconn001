@@ -6,7 +6,7 @@ permalink: /docs/appconn001/
 Slack for this environment is:
 {% for org_hash in site.data.envs %}
 {% assign org = org_hash[1] %}
-  <p>
-      {{ org.name }}
-    </p>
+  {% if org.name == 'UK'%}
+    <p>Found UK</p>
+  {% endif %}
 {% endfor %}
