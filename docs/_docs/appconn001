@@ -7,6 +7,6 @@ Slack for this environment is:
 {% for org_hash in site.data.envs %}
 {% assign org = org_hash[1] %}
   {% if org.name == 'UK'%}
-    <p>Found UK</p>
+    <p>Found {{ org.slack }} </p>
   {% endif %}
 {% endfor %}
