@@ -4,6 +4,9 @@ permalink: /docs/appconn001/
 ---
 
 Slack for this environment is:
-{% for all_env in site.data.envs %}
-  <p> {{ all_env.slack }} </p>
+{% for org_hash in site.data.envs %}
+{% assign org = org_hash[1] %}
+  <p>
+      {{ org.name }}
+    </p>
 {% endfor %}
