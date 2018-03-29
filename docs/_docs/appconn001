@@ -5,18 +5,5 @@ permalink: /docs/appconn001/
 
 Slack for this environment is:
 {% for all_env in site.data.envs %}
-{% assign env = all_env[0] %}
-  <p> {{ env.slack }} </p>
+  <p> {{ all_env.slack }} </p>
 {% endfor %}
-
-# When
-
-Checking `#appcon-ops-alerts` Slack channel, you see `IBM Alert Notification` messages with content:
-
-> Severity: Critical  
-Where: [region] {a URL}  
-What: Microservice not available - Playbook hip#001
-
-
-## Maintainers 
-Squad: Neptune
