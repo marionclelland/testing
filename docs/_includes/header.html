@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <script>
+  function myFunction() {
+    var enviro = document.getElementById('env');
+  }
+</script>
+  </head>
+<body onload="myFunction()">
 <h2>Select an environment</h2>
 <form action="">
   <select name="env">
@@ -10,6 +17,8 @@
   <br>
   <input type="submit">
 </form>
-<script>var env = getParameterByName('env');</script>
+      <script type="text/javascript">
+        document.write(enviro)
+      </script>
 </body>
 </html>
