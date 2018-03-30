@@ -9,8 +9,8 @@ Checking one of the following Slack channels:
 All production alerts: `#appcon-ops-alerts`
 {% for env_hash in site.data.envs.prod %}
 {% assign env = env_hash[1] %}
-    <p><a href="{{ env.slackurl }}">
-      {{ env.name }}
+        <p>{{ env.name }} alerts: <a href="{{ env.slackurl }}">
+      {{ env.slacktitle }}
     </a></p>
 {% endfor %}
 
