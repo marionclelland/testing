@@ -1,2 +1,3 @@
 name: Stage 1
-slack: "[appconn-stage1-alerts](https://ibm-cloud.slack.com/messages/stage1_url)"
+slacktitle: appconn-stage1-alerts
+slackurl: "https://ibm-cloud.slack.com/messages/stage1_url"
