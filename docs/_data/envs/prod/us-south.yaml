@@ -1,2 +1,3 @@
 name: US South Production
-slack: "[appconn-ussouth-alerts](https://ibm-cloud.slack.com/messages/C9FDPFBUJ)"
+slacktitle: appconn-ussouth-alerts
+slackurl: "https://ibm-cloud.slack.com/messages/C9FDPFBUJ"
