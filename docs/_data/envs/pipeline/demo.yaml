@@ -1,2 +1,3 @@
 name: Demo
-slack: "[appconn-demo-alerts](https://ibm-cloud.slack.com/messages/demo_url)"
+slacktitle: appconn-demo-alerts
+slackurl: "https://ibm-cloud.slack.com/messages/demo_url"
