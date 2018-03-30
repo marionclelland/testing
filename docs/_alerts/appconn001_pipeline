@@ -8,8 +8,8 @@ permalink: /alerts/appconn001_pipeline/
 Checking one of the following Slack channels:
 {% for env_hash in site.data.envs.pipeline %}
 {% assign env = env_hash[1] %}
-        <p><a href="{{ env.slackurl }}">
-      {{ env.name }}
+        <p>{{ env.name }} alerts: <a href="{{ env.slackurl }}">
+      {{ env.slacktitle }}
     </a></p>
 {% endfor %}
 
