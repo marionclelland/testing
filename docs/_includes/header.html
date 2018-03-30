@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
-  function myFunction() {
-    var enviro = document.getElementById('env');
-  }
-</script>
+
   </head>
-<body onload="myFunction()">
 <h2>Select an environment</h2>
-<form action="javascript:;" onsubmit="myFunction()">
-  <select name="env">
-    <option value="eu-gb">Production - UK</option>
-    <option value="us-south">Production - US South</option>
-  </select>
-  <br>
-  <input type="submit">
-</form>
+<select name="" onchange="javascript:location.href = this.value;">
+    <option value="/docs/appconn001/" selected>Production</option>
+    <option value="/docs/appconn002/">Pipeline</option>
+</select>
   <p>
     The value is :
       <script type="text/javascript">
-        document.write(enviro)
+        document.write(value)
       </script>
   </p>
 </body>
