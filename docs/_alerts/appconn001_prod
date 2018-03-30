@@ -9,7 +9,7 @@ Checking one of the following Slack channels:
 All production alerts: `#appcon-ops-alerts`
 {% for env_hash in site.data.envs.prod %}
 {% assign env = env_hash[1] %}
-    <p>{{ env.name }} Production alerts: {{ env.slack }} </p>
+    <p>{{ env.name }} Production alerts: {{ env.slack }} | markdownify </p>
 {% endfor %}
 
 You see `IBM Alert Notification` messages with content:
