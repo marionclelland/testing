@@ -8,7 +8,9 @@ permalink: /alerts/appconn001_pipeline/
 Checking one of the following Slack channels:
 {% for env_hash in site.data.envs.pipeline %}
 {% assign env = env_hash[1] %}
-    <p>{{ env.name }} alerts: [{{ env.slacktitle }}]({{ env.slackurl }}) </p>
+        <p><a href="{{ env.slackurl }}">
+      {{ env.name }}
+    </a></p>
 {% endfor %}
 
 You see `IBM Alert Notification` messages with content:
