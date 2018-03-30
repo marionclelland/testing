@@ -1,2 +1,3 @@
-name: PreP roduction
-slack: "[appconn-preprod-alerts](https://ibm-cloud.slack.com/messages/preprod_url)"
+name: Pre Production
+slacktitle: appconn-preprod-alerts
+slackurl: "https://ibm-cloud.slack.com/messages/preprod_url"
