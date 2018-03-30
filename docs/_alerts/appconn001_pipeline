@@ -1,0 +1,10 @@
+---
+title: appconn#001 Microservice Unavailable
+permalink: /alerts/appconn001_pipeline/
+---
+
+Slack for Prod environments are:
+{% for env_hash in site.data.envs.pipeline %}
+{% assign env = env_hash[1] %}
+    <p>Found {{ env.slack }} </p>
+{% endfor %}
