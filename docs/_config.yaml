@@ -4,6 +4,8 @@ name: hip-ops • Application Integration Operations Wiki
 description: Your source for everything App Connect and IIBoC
 collections:
   alerts:
+    output: true
+  docs:
     permalink: "/:collection/:path/"
     output: true
 defaults:
