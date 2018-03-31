@@ -7,9 +7,6 @@ collections:
   alerts:
     permalink: "/:collection/:path/"
     output: true
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
 defaults:
 - scope:
     path: _alerts
