@@ -5,6 +5,7 @@ description: Your source for everything App Connect and IIBoC
 theme: jekyll-theme-midnight
 collections:
   alerts:
+    permalink: "/:collection/:path/"
     output: true
   docs:
     permalink: "/:collection/:path/"
