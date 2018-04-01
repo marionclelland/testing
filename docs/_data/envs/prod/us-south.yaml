@@ -1,3 +1,6 @@
 name: US South Production
 slacktitle: appconn-ussouth-alerts
 slackurl: "https://ibm-cloud.slack.com/messages/C9FDPFBUJ"
+bluemixendpoint: "https://api.ng.bluemix.net"
+metricsurl: "https://metrics.ng.bluemix.net/app/#/grafana4"
+consoleurl: "http://console.ng.bluemix.net"
