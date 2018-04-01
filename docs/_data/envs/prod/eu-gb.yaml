@@ -1,5 +1,5 @@
 name: UK Production
-slacktitle: appconn-uk-alerts
+slacktitle: appconn-alerts-uk
 slackurl: "https://ibm-cloud.slack.com/messages/C9G98KFUN"
 bluemixendpoint: "https://api.eu-gb.bluemix.net"
 metricsurl: "https://metrics.eu-gb.bluemix.net/app/#/grafana4"
