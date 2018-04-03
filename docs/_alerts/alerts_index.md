@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Critical Alerts Index"
 permalink: /alerts/home/
 ---
