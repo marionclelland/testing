@@ -3,7 +3,7 @@ version: 0.0.1
 name: hip-ops • Application Integration Operations Wiki
 description: Your source for everything App Connect and IIBoC
 collections:
-  alerts:
+  docs:
     permalink: "/:collection/:path/"
     output: true
 defaults:
@@ -12,9 +12,16 @@ defaults:
     type: alerts
   values:
     layout: alerts
-sass:
-  sass_dir: _sass
-  style: compressed
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+- scope:
+    path: _daily-playbook
+    type: daily-playbook
+  values:
+    layout: daily-playbook
 exclude:
 - ".gitignore"
 - readme.md
