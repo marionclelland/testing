@@ -1,6 +1,6 @@
 ---
 title: appconn#001 Microservice Unavailable
-permalink: /alerts/appconn/appconn001_prod/
+permalink: /alerts/appconn001_prod/
 ---
 
 # When
