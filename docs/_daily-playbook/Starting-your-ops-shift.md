@@ -1,6 +1,6 @@
 ---
 title: Starting Your Ops Shift
-permalink: /daily-playbook/starting-your-ops-shift/
+permalink: /daily-playbook/home/
 ---
 
 When you start your ops shift, complete the following steps in order.  
