@@ -2,6 +2,9 @@
   <li class="{% if page.overview %}current{% endif %}">
     <a href="/">Home</a>
   </li>
+  <li class="{% if page.url contains '/daily-playbook/' %}current{% endif %}">
+    <a href="/daily-playbook/home/">Daily Playbook</a>
+  </li>
   <li class="{% if page.url contains '/alerts/' %}current{% endif %}">
     <a href="/alerts/home/">Alerts</a>
   </li>
