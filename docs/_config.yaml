@@ -2,7 +2,6 @@
 version: 0.0.1
 name: hip-ops • Application Integration Operations Wiki
 description: Your source for everything App Connect and IIBoC
-theme: jekyll-theme-midnight
 collections:
   alerts:
     permalink: "/:collection/:path/"
@@ -14,6 +13,7 @@ defaults:
   values:
     layout: alerts
 sass:
+  sass_dir: _sass
   style: compressed
 exclude:
 - ".gitignore"
